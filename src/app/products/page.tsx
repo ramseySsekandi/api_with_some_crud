@@ -7,7 +7,7 @@ const page = async ()  => {
   return (
    <div className='p-8 bg-purple-400'>
     <h2 className="text-center font-bold text-4xl mb-2">Welcome to Products Page</h2>
-    <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4">
+    <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4">
     {
         product.map((product) => {
             return (
